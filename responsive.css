@@ -1,0 +1,658 @@
+/* ============ 1199px ================= */
+@media(max-width: 1199px){
+}
+/* ============ 1024px ================= */
+@media(max-width: 1024px){
+    /* ========== navbar ============ */
+    .navbar{
+        padding: 15px 0;
+    }
+    .navbar .logo a{
+        max-width: 180px;
+    } 
+    .navbar .nav-menu a{
+        font-size: 15px;
+    }
+    .navbar .icon li:nth-child(2){
+    padding-right: 35px;
+    }
+    /* =========== about ============= */
+    .about .col-40 .vdo{
+        bottom: 15%;
+    }
+    .about .col-60{
+        padding-left: 60px;
+    }
+    /* ========== repair ===========*/
+    .repair .col-25{
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+        margin-bottom: 20px;
+    }
+    .repair .col-25 .card{
+        height: 100%;
+    }
+    .repair .col-25:nth-child(2) .card{
+        margin-top: 0;
+    }
+    .repair .col-25:nth-child(3) .card{
+        margin-top: 0;
+    }
+    /* =========== trust ============== */
+    .trust .col-25{
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+    .trust .col-25 .card{
+        margin-bottom: 20px;
+    }
+    .trust .col-25:nth-child(3) .card{
+        border-right: none;
+    }
+    /* ============= service ============== */
+    .service .col-60{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .service .col-60 .vdo{
+        margin-bottom: 20px;
+    }
+    .service .col-40{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    /* ======= process ========= */
+    .process .round-bg img{
+        display: none;
+    }
+    /* ============ plan ============= */
+    .plan .col-30{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .plan .row .col-30:nth-child(2) .card{
+        margin-top: 0;
+    }
+    .plan .col-30 .card{
+        margin-bottom: 20px;
+    }
+    /* =========== faq ============== */
+    .faq .card{
+        padding: 60px 40px 60px 38px;
+    }
+    /* =========== testimonials ========== */ 
+    .testimonials .swiper-slide .details{
+        justify-content: space-between;
+    }
+    .testimonials .details .job-details{
+        margin: 0;
+}
+}
+/* ============ 991px ================= */
+@media(max-width: 991px){
+    /* ======== navbar ========== */
+   .navbar .nav-menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background: #000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        z-index: 10;
+    }
+    .navbar .nav-menu.active{
+        transform: translateX(0);
+    }
+    .hamburger{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: rotate(45deg) translateY(7px);
+        z-index: 12;
+        background: var(--primary-white);
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: rotate(-45deg) translateY(-7px);
+        z-index: 12;
+        background: var(--primary-white);
+    }
+    .navbar .nav-menu li{
+        padding: 20px 0;
+    }
+    .navbar .nav-menu li a{
+        font-size: 20px;
+        color: #fff;
+    }
+    /* =========== banner ============= */
+    .banner{
+        min-height: 700px;
+    }
+    /* ======= about ============ */
+    .about .col-40{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .about .col-40 figure{
+        margin-bottom: 50px;
+    }
+    .about .col-40 figure img{
+        width: 100%;
+    }
+    .about .vdo{
+        top: 50%;
+        left: 50%;
+    }
+    .about .col-60{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 15px;
+    }
+    /* ============= service ============ */
+    .service{
+        padding: 60px 0;
+    }
+    .service .title{
+        justify-content: center;
+    }
+    .service .col-60 h2{
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .service .col-60 p{
+        max-width: 100%;
+        text-align: center;
+    }
+    .service .vdo{
+        justify-content: center;
+    }
+    /* ============ appoinment =========== */
+    .appoinment{
+        padding-bottom: 50px;
+    }
+    .appoinment .part-2{
+        position: unset;
+    }
+    .appoinment .col-60{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .appoinment .head{
+        max-width: 100%;
+    }
+    .appoinment .col-40{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .appoinment form{
+        max-width: 100%;
+    }
+    /* ============ process ============== */
+    .process{
+        padding: 100px 0;
+    }
+    /* ========== station =========== */
+    .station .col-70{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+    .station .col-20{
+        max-width: 100%;
+        flex: 0 0 100%;
+
+    }
+    .station .col-20 .card{
+        text-align: center;
+    }
+    /* =========== plan ============= */
+    .plan{
+        padding: 70px 0;
+    }
+    /* =========== faq ============== */
+    .faq .card{
+        padding: 60px 30px 60px 30px;
+    }
+    .faq .col-30 .card .h3-title{
+        font-size: 30px;
+    }
+    .faq .contact{
+        padding: 21px 30px 26px;
+    }
+    /* =========== testimonials ========== */
+    .testimonials h2{
+        font-size: 120px;
+        bottom: -50px;
+    }
+    .testimonials .details .job-details .h2-title{
+    font-size: 16px;
+    }
+    .testimonials .details .job-details p{
+        font-size: 14px;
+    }
+    /* =========== footer ============== */
+    .footer .col-25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+}
+/* ============ 767px ================= */
+@media(max-width: 767px){
+    /* ======== navbar ========== */
+    .nav-top{
+        display: none;
+    }
+    /* ========= about ========== */
+    .about{
+        padding: 50px 0;
+    }
+    .about .col-60{
+        padding: 0 15px;
+    }
+    /* ========== repair ===========*/
+    .repair{
+        padding: 50px 0;
+    }
+    .repair .col-25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    /* =========== trust ============== */
+    .trust{
+        padding: 50px 0;
+    }
+    .trust .col-25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .trust .col-25:nth-child(2) .card{
+        border-right: none;
+    }
+    .trust .col-25:nth-child(3) .card{
+        border-right: 2px solid #09b609;
+    }
+    /* ============= process ============= */
+    .process{
+        padding: 70px 0;
+    }
+    .process .col-25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .process .col-25:nth-child(2) .card{
+    margin-top: 0;
+    }
+    .process .col-25:nth-child(4) .card{
+    margin-top: 0;
+    }
+    .process .col-25 .card{
+        margin-bottom: 20px;
+    }
+    /* ========= station ============= */
+    .station h2{
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .station input{
+        width: 250px;
+    }
+    .station h3{
+        margin-top: 40px;
+    }
+    /* ============ plan ============= */
+    .plan{
+        padding: 50px 0;
+    }
+    .plan .title{
+        margin-bottom: 30px;
+    }
+    .plan .col-30{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .plan .col-30 .card{
+        text-align: center;
+    }
+    /* ========= team ============ */
+    .team{
+        min-height: 600px;
+        padding: 50px 0;
+    }
+    .team .next i{
+        right: 35%;
+        bottom: 10%;
+    }
+    .team .prev i{
+        left: 35%;
+        bottom: 10%;
+    }
+    /* =========== faq ============== */
+    .faq{
+        padding: 50px 0;
+    }
+    .faq .head{
+        margin-bottom: 30px;
+    }
+    .faq .col-30{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .faq .col-70{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .faq .col-70 h3{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .faq .col-70 p{
+        text-align: center;
+    }
+    .accordion-header{
+        font-size: 16px;
+    }
+    .faq .accordion-content p{
+        font-size: 18px;
+        text-align: left;
+    }
+    /* =========== testimonials ========== */
+    .testimonials{
+        padding: 50px 0 70px;
+    }
+    .testimonials h2{
+        font-size: 100px;
+    }
+    .testimonials .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .testimonials .head{
+        margin-bottom: 20px;
+    }
+    /* ============== footer ============ */
+    .footer-bottom .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .footer-bottom .row{
+        justify-content: center;
+    }
+    .footer .col-50:nth-child(2){
+        margin-top: 10px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer-bottom .col-50 li:nth-child(1){
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/* ============ 575px ================= */
+@media(max-width: 575px){
+    /* ======== navbar ========== */
+    .navbar .logo a{
+        max-width: 150px;
+    }
+    /* =========== banner ============== */
+    .banner h1{
+        font-size: 50px;
+    }
+    /* ========= about ============== */
+    .about .item{
+        flex-direction: column;
+    }
+    /* ========== repair ===========*/
+    .repair .head .title{
+        margin-bottom: 30px;
+    }
+    .repair .head p{
+        margin-bottom: 30px;
+    }
+    .repair .col-25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .repair .btn{
+        margin-top: 50px;
+    }
+    /* =========== trust ============== */
+    .trust .col-25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .trust .row .col-25:nth-child(1) .card{
+        border-right: none;
+    }
+    .trust .row .col-25:nth-child(3) .card{
+        border-right: none;
+    }
+    /* ========= service =========== */
+    .service .col-60 h2{
+        font-size: 30px;
+    }
+    /* ========= station ============= */
+    .station h2{
+        font-size: 28px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .station .input-icon{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .station .step{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .station h3{
+        text-align: center;
+    }
+    /* =========== testimonials ========== */
+    .testimonials h2{
+        font-size: 80px;
+        bottom: -30px;
+    }
+}
+/* ============ 480px ================= */
+@media(max-width: 480px){
+    /* ======== navbar ========== */
+    .navbar .logo a{
+        max-width: 130px;
+    }
+    .navbar .icon li:nth-child(2){
+    padding-right: 20px;
+    }
+    .navbar .cmn-btn{
+        padding: 10px;
+    }
+    /* ========= banner ======== */
+    .banner{
+        min-height: 500px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .banner p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .banner .cmn-btn{
+        padding: 10px 30px;
+    }
+    /* ========= about ============== */
+    .about h3{
+        font-size: 30px;
+    }
+    /* ========== repair =========== */
+    .repair .head h2{
+        font-size: 35px;
+    }
+    /* ============= service ============== */
+    .service .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .service .col-50:nth-child(1){
+        margin-top: 0;
+    }   
+    .service .col-50 .card:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .service .col-50 .card{
+        margin-bottom: 20px;
+    }
+    /* =========== appoinment ============== */
+    .appoinment .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .appoinment .estimate{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* ============= process ============= */
+    .process{
+        padding: 50px 0;
+    }
+    .process .head h2{
+        margin-bottom: 50px;
+    }
+    .process .head h2::before{
+        left: 40%;
+    }
+    .process .col-25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .process .h3-title{
+        right: 25%;
+    }
+    /* =========== station ============= */
+    .station{
+        padding: 30px 0;
+    }
+    /* ========== plan ========= */
+    .plan{
+        padding: 30px 0;
+    }
+    /* =========== team ============ */
+    .team{
+        min-height: 300px;
+        padding: 30px 0;
+    }
+    /* =========== testimonials ========== */
+    .testimonials h2{
+        font-size: 60px;
+        bottom: -20px;
+    }
+    /* =========== footer ============== */
+    .footer .col-25{
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .footer .col-25 .social{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .footer .col-25:nth-child(3) .h3-title{
+        margin-top: 20px;
+    }
+    .footer .col-25:nth-child(4) .h3-title{
+        margin-top: 20px;
+    }
+}
+/* ============ 375px ================= */
+@media(max-width: 375px){
+    /* ======== navbar ========== */
+    .navbar .logo a{
+        max-width: 110px;
+    }
+    .navbar .cmn-btn{
+        font-size: 12px;
+    }
+    .navbar .icon i{
+        font-size: 18px;
+    }
+    .navbar .hamburger{
+        margin-left: 10px;
+    }
+    /* ========== banner ========== */
+    .banner .h3-title{
+        font-size: 20px;
+    }
+    .banner p{
+        font-size: 16px;
+    }
+    /* ========== repair =========== */
+    .repair .head h2{
+        font-size: 30px;
+    }
+    .repair .head h3{
+        font-size: 20px;
+    }
+    .repair .btn{
+        margin-top: 30px;
+    }
+    /* =========== trust ============== */
+    .trust{
+        padding: 30px 0;
+    }
+    /* =========== service ============ */
+    .service{
+        padding: 30px 0;
+    }
+    .service .col-60 .title{
+        margin-bottom: 30px;
+    }
+    /* ============ process ============= */
+    .process{
+        padding: 30px 0;
+    }
+    .process .head h2::before{
+        left: 40%;
+        bottom: -30%;
+        width: 50px;
+    }
+    /* ========== station =========== */
+    .station h2{
+        font-size: 25px;
+    }
+    /* =========== plan ============ */
+    .plan .head h2{
+        font-size: 30px;
+    }
+    /* =========== faq ============== */
+    .faq{
+        padding: 30px 0;
+    }
+    .faq .col-70 h3{
+        font-size: 30px;
+    }
+    .accordion-header{
+        font-size: 12px;
+    }
+    .accordion-content p{
+        font-size: 14px;
+    }
+}
+/* ============ 320px ================= */
+@media(max-width: 320px){
+    
+}
